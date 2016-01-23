@@ -1,17 +1,23 @@
 #cute {
 	font-family: "Pacifico", cursive;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 #classy {
 	font-family: "Lato", sans-serif;
-	font-size: 4em;
+	font-size: 3em;
 }
 
 .greeting {
+	color: white;
 	font-family: "Lobster", cursive;
 	font-size: 3em;
 	text-align: center;
+	text-shadow:
+   -1px -1px 0 gray,  
+    1px -1px 0 gray,
+    -1px 1px 0 gray,
+     1px 1px 0 gray;
 }
 
 .question {
@@ -21,4 +27,8 @@
 
 .button {
 	text-align: center;
+}
+
+img {
+	height: 400px;
 }
